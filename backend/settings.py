@@ -125,7 +125,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-CORS_ALLOWED_ORIGINS = [
+CORS_ORIGINS_WHITELIST = [
     "http://localhost:3000",
     "http://127.0.0.1:3000",
     "191.238.214.31"
