@@ -87,7 +87,7 @@ DATABASES = {
       'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'djangoreact',
-        'USER': 'djangoreact',
+        'USER': 'postgres',
         'PASSWORD': '123felix',
         'HOST': '127.0.0.1',
         'PORT': '5432',
