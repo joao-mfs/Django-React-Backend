@@ -131,3 +131,9 @@ CORS_ORIGIN_WHITELIST = [
     "http://191.238.214.31"
 
 ]
+
+STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, "static")
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, "media")
